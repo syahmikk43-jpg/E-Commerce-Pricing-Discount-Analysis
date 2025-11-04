@@ -28,6 +28,7 @@ This project highlights analytical storytelling — turning simple retail data i
 - 📁 [Cleaned Data](https://github.com/syahmikk43-jpg/E-Commerce-Pricing-Discount-Analysis/tree/main/Cleaned%20data)
 - 🖥️ [Tableau Dashboard (Public Link)](https://public.tableau.com/app/profile/syahmikk43/viz/E-CommercePricingDiscountAnalysisDashboard/Dashboard1)  
 
+---
 
 ## 🗃️ Dataset Overview
 ### Data Description
@@ -57,6 +58,7 @@ To enhance the analysis, I add several new columns:
 These additional columns provided more insights into pricing trends and discount behavior across brands and categories.
 All fields are in a **single flat table** — no relational links.
 
+---
 
 ## 🧭 Executive Summary
 Despite being a limited dataset, several insights emerged:
@@ -68,3 +70,36 @@ Despite being a limited dataset, several insights emerged:
   
 <img width="1584" height="1038" alt="Image" src="https://github.com/user-attachments/assets/18bad6ec-bff6-4ada-ad6f-4bc2fecd52e8" />
 
+---
+
+## 🔍 Insights Deep Dive
+### 1️⃣ Average Discount by Brand
+- The chart shows significant variation in discount levels across brands. Some brands such as Adidas and ASOS DESIGN apply aggressive markdowns, while others like Bench or Oskia maintain lower discounts closer to retail. This suggests diverse pricing strategies for larger fashion brands rely on discounts to attract volume, whereas smaller or premium brands protect perceived value by discounting less.
+- 
+
+### 2️⃣ Top 10 Colors
+The color distribution shows that neutral tones make up majority of the collection, with Black, White, and Grey being the most common. This suggests a consumer preference toward versatile and classic colors, which are common in fashion retail. A limited range of color mixes could also mean that the company is more focused on its core inventory than on launching new colors based on trends or seasons.
+
+### 3️⃣ Brand & Category Analysis
+Most items are priced below RRP (avg. ~85%), but outliers indicate potential clearance or high-discount events.
+
+### 4️⃣ Price vs RRP Comparison
+Neutral colors like **Black**, **White**, and **Blue** dominate — consistent with general retail fashion trends.
+
+---
+
+## 💡 Recommendations
+| Area | Action | Rationale |
+|-------|--------|-----------|
+| **Pricing Consistency** | Review brands with high discount volatility | To maintain fair pricing perception |
+| **Product Planning** | Focus on top color trends | Align product offering with consumer demand |
+| **Data Enhancement** | Add sales, cost, and profit columns | Enables more meaningful KPI and margin analysis |
+| **Modeling** | Build product–sales relational structure | Support advanced trend and profit analysis |
+
+---
+
+## ⚠️ Caveats & Limitations
+- No transaction data (e.g., sales, profit, quantity, or date).  
+- Single flat dataset — limited analytical relationships.  
+- Insights are **descriptive only**, not performance-based.  
+- Currency fixed in USD — no regional or temporal context.
