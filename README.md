@@ -19,7 +19,7 @@ Through Excel and Tableau, this project demonstrates how limited but structured 
 - Analyze average current price by brand and categories.
 - Price vs RRP comparison
 
-This project highlights analytical storytelling — turning simple retail data into visual insights about pricing behavior, brand strategy, and discount variability.
+This project focuses on analytical storytelling, which involves transforming simple retail data into visual insights regarding price behavior, brand strategy, and discount variability.
 
 ### 🛠️ Tools & Resources :
 - **Excel** — data preparation and cleaning 
@@ -56,16 +56,16 @@ To enhance the analysis, I add several new columns:
 | `Price Ratio` | `=current_price / rrp` | ratio of current price to RRP |
 
 These additional columns provided more insights into pricing trends and discount behavior across brands and categories.
-All fields are in a **single flat table** — no relational links.
+All fields are in a **single flat table** with no relational relationships.
 
 ---
 
 ## 🧭 Executive Summary
 Despite being a limited dataset, several insights emerged:
 
-- Average discount rates vary widely by **brand** — some apply aggressive markdowns, others stay near full price.  
+- Average discount rates vary widely by **brand** with some apply aggressive markdowns, others stay near full price.  
 - **Fashion-focused categories** tend to show higher discount behavior.  
-- The **top 10 colors** (Black, White, Navy, etc.) dominate across product listings.  
+- The **top 10 colors** (Black, White, Grey, etc.) dominate across product listings.  
 - Most products are sold below their RRP, indicating strong and consistent markdown practices across brands.
   
 <img width="1584" height="1038" alt="Image" src="https://github.com/user-attachments/assets/18bad6ec-bff6-4ada-ad6f-4bc2fecd52e8" />
@@ -74,17 +74,17 @@ Despite being a limited dataset, several insights emerged:
 
 ## 🔍 Insights Deep Dive
 ### 1️⃣ Average Discount by Brand
-- The chart shows significant variation in discount levels across brands. Some brands such as Adidas and ASOS DESIGN apply aggressive markdowns, while others like Bench or Oskia maintain lower discounts closer to retail. This suggests diverse pricing strategies for larger fashion brands rely on discounts to attract volume, whereas smaller or premium brands protect perceived value by discounting less.
+- The chart shows significant variation in discount levels across brands. Some brands such as **Adidas** and **ASOS DESIGN** apply aggressive markdowns, while others like **Bench** or **Oskia** maintain lower discounts closer to retail. This suggests **diverse pricing strategies** for larger fashion brands rely on discounts to attract volume, whereas smaller or premium brands protect perceived value by discounting less.
 - 
 
 ### 2️⃣ Top 10 Colors
-The color distribution shows that neutral tones make up majority of the collection, with Black, White, and Grey being the most common. This suggests a consumer preference toward versatile and classic colors, which are common in fashion retail. A limited range of color mixes could also mean that the company is more focused on its core inventory than on launching new colors based on trends or seasons.
+The **color distribution** shows that **neutral tones make up majority of the collection**, with **Black**, **White**, and **Grey** being the most common. This suggests a **consumer preference toward versatile and classic colors**, which are common in fashion retail. A limited range of color mixes could also mean that the company is more focused on its core inventory than on launching new colors based on trends or seasons.
 
 ### 3️⃣ Brand & Category Analysis
-Most items are priced below RRP (avg. ~85%), but outliers indicate potential clearance or high-discount events.
+Across categories, pricing varies particularly between brands. **ASOS DESIGN** and **Adidas Originals** show broader price ranges, implying diverse product selection from budget to premium. Meanwhile, **smaller focus brands** cluster within tighter price ranges, indicating stable pricing or limited Stock Keeping Units (SKUs). This visualisation highlights how **brand strategy directly influences pricing diversity** within categories.
 
 ### 4️⃣ Price vs RRP Comparison
-Neutral colors like **Black**, **White**, and **Blue** dominate — consistent with general retail fashion trends.
+The scatter plot shows a **strong positive relationship** between current price and RRP, confirming that most price reductions are proportional to original retail values. Most data points fall **below the line**, indicating that the majority of products are **discounted below RRP**. A few products appear near or above the line, these likely represent new or premium releases sold closer to full price. Overall, this suggests **consistent markdown practices** across brands.
 
 ---
 
