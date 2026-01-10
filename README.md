@@ -9,9 +9,9 @@ While it does not include sales or profit data, it still provides valuable insig
 - The general price positioning and markdown practices.
 
 #### Resources :
-- 🔗 [Dataset Source (Kaggle)](https://www.kaggle.com/datasets/imrulhasanrobi/e-commerce-big-dataset-from-multi-category/data)
-- 📁 [Cleaned Data](https://github.com/syahmikk43-jpg/E-Commerce-Pricing-Discount-Analysis/tree/main/Cleaned%20data)
-- 🖥️ [Tableau Dashboard (Public Link)](https://public.tableau.com/app/profile/syahmikk43/viz/E-CommercePricingDiscountAnalysisDashboard/Dashboard1)  
+- The original dataset is available [here](https://www.kaggle.com/datasets/imrulhasanrobi/e-commerce-big-dataset-from-multi-category/data).
+- The cleaned data can be downloaded [here](https://github.com/syahmikk43-jpg/E-Commerce-Pricing-Discount-Analysis/tree/main/Cleaned%20data).
+- An interactive Tableau dashboard can be viewed [here](https://public.tableau.com/app/profile/syahmikk43/viz/E-CommercePricingDiscountAnalysisDashboard/Dashboard1).
 
 ---
 
