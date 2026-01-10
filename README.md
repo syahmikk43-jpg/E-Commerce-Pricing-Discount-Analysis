@@ -8,7 +8,7 @@ While it does not include sales or profit data, it still provides valuable insig
 - Which brands or colors tend to offer higher discounts.
 - The general price positioning and markdown practices.
 
-#### 🛠️ Resources :
+#### Resources :
 - 🔗 [Dataset Source (Kaggle)](https://www.kaggle.com/datasets/imrulhasanrobi/e-commerce-big-dataset-from-multi-category/data)
 - 📁 [Cleaned Data](https://github.com/syahmikk43-jpg/E-Commerce-Pricing-Discount-Analysis/tree/main/Cleaned%20data)
 - 🖥️ [Tableau Dashboard (Public Link)](https://public.tableau.com/app/profile/syahmikk43/viz/E-CommercePricingDiscountAnalysisDashboard/Dashboard1)  
@@ -86,7 +86,7 @@ The scatter plot shows a **strong positive relationship** between current price 
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 - No transaction data (e.g., sales, profit, quantity, or date).  
 - Single flat dataset — limited analytical relationships.  
 - Insights are **descriptive only**, not performance-based.  
